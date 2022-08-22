@@ -1,10 +1,10 @@
 {
-    "name": "epmnzava/laravel-cms",
-    "description": "A laravel library to help you quickly gets started with cms items (menus,blog and pages) ",
+    "name": "epmnzava/blog",
+    "description": "A laravel library to help you quickly gets started with blogging  ",
     "keywords": [
         "epmnzava",
-        "laravel-cms",
-        "cms"
+        "laravel-blog",
+        "blog"
     ],
     "homepage": "https://github.com/epmnzava/laravel-cms",
     "license": "MIT",

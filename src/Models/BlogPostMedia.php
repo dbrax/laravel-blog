@@ -11,6 +11,7 @@ class BlogPostMedia extends Model
 
     protected $guarded = [];
 
+    protected $table = 'blog_post_medias';
 
     public function post()
     {

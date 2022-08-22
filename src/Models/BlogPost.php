@@ -11,8 +11,9 @@ class BlogPost extends Model
     use HasTranslations;
 
     protected $guarded = [];
+    protected $table = 'blog_posts';
 
-    public $translatable = ['title', 'content'];
+    public $translatable = ['title', 'content', 'caption'];
     public function media()
     {
         return $this->hasMany(PostMedia::class, "postid");

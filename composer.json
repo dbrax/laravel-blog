@@ -1,0 +1,57 @@
+{
+    "name": "epmnzava/laravel-cms",
+    "description": "A laravel library to help you quickly gets started with cms items (menus,blog and pages) ",
+    "keywords": [
+        "epmnzava",
+        "laravel-cms",
+        "cms"
+    ],
+    "homepage": "https://github.com/epmnzava/laravel-cms",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Emmanuel Mnzava",
+            "email": "epmnzava@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1.6",
+        "illuminate/support": "^9.17",
+        "livewire/livewire": "^2.10.5",
+        "nesbot/carbon": "^2.61",
+        "orchestra/testbench": "^7.5",
+        "spatie/laravel-activitylog": "^4.5",
+        "spatie/laravel-permission": "^5.5",
+        "spatie/laravel-translatable": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Epmnzava\\LaravelCms\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Epmnzava\\LaravelCms\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Epmnzava\\LaravelCms\\LaravelCmsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelCms": "Epmnzava\\LaravelCms\\LaravelCmsFacade"
+            }
+        }
+    }
+}

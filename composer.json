@@ -6,7 +6,7 @@
         "laravel-blog",
         "blog"
     ],
-    "homepage": "https://github.com/epmnzava/laravel-cms",
+    "homepage": "https://github.com/epmnzava/laravel-blog",
     "license": "MIT",
     "type": "library",
     "authors": [
